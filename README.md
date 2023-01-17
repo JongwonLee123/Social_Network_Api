@@ -1,8 +1,8 @@
-# Social_Network_Api
+# Social network api demo
 
 ## Description
 
-A basic demo of a database API using MongoDB / Mongoose w/ Express. Perform CRUD operations on Users, Thoughts, and Reactions on Thoughts. 
+A basic demo of a database API using MongoDB and Express. Perform CRUD operations on Users, Thoughts, and Reactions on Thoughts. 
 
 ## Table of Contents
 
