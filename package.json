@@ -1,27 +1,29 @@
 {
-  "dependencies": {
-    "express": "^4.18.2",
-    "moment": "^2.29.4",
-    "mongoose": "^6.8.1",
-    "node": "^19.3.0"
-  },
-  "scripts": {
-    "start": "node server.js",
-    "seed": "node seed/seed.js"
-  },
   "name": "Social_Network_Api",
-  "description": "\"Mongodb API demo\"",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
-  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JongwonLee123/Social_Network_Api.git"
   },
-  "author": "Sky Texier",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/JongwonLee123/Social_Network_Api/issues"
   },
-  "homepage": "https://github.com/JongwonLee123/Social_Network_Api#readme"
+  "homepage": "https://github.com/JongwonLee123/Social_Network_Api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
